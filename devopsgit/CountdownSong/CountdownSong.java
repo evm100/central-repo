@@ -38,6 +38,7 @@ public class CountdownSong
                 System.out.println("One fell off and broke his head");
                 System.out.println("Mama called the doctor and the doctor said");
                 System.out.println("no more monkeys jumping on the bed.");
+                System.out.println("commit");
             }
             
             // decrement i at end of loop
