@@ -1,0 +1,21 @@
+/* This class will be the main control and will access the other classes and will call the askQuestion();
+* Can add notes/comments
+*/
+
+public class MidtermTestP4 {
+  
+  IO io = newIO();
+  DataTypes dt = new DataTypes();
+  ControlFLow cf = new ControlFlow();
+  RandomLogic rl = new RandomLogic();
+  
+  public static void main(String[]args) {
+  
+  io.askQuestion();
+  dt.askQuestion();
+  cf.askQuestion();
+  rl.askQuestion();
+  
+  }
+
+}
