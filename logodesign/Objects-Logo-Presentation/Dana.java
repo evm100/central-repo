@@ -1,4 +1,6 @@
-
+import apcslib.*;
+import java.awt.Color;
+import chn.util.*;
 /**
  * Write a description of class Dana here.
  *
@@ -7,27 +9,26 @@
  */
 public class Dana
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Dana
-     */
-    public Dana()
+    public static void main()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+       DrawingTool marker;
+       SketchPad pad;
+       pad = new SketchPad(600,600);
+       marker = new DrawingTool(pad);
+       marker.setColor(Color.BLUE);
+       marker.up();
+       marker.move(40,20);
+       marker.down();
+       marker.move(250,125);
+       marker.move(0,125);
+       marker.move(200,20);
+       marker.move(120,200);
+       marker.move(40,20);
+       marker.up();
+       marker.down();
+       marker.setColor(Color.RED);
+       marker.up();
+       marker.move(85,100);
+       marker.drawString("Mr. M's Test");
     }
 }
