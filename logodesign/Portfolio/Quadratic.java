@@ -8,7 +8,7 @@ import java.util.*;
  * @version (a version number or a date)
  */
 
-public class Main
+public class Quadratic
 {
    public static void main(){
        double a, b, c;
